@@ -9,3 +9,6 @@ sudo nextcloud.manual-install username password
 nextcloud.occ config:system:set trusted_domains 1 --value=your.ip.here
 
 profit
+
+mound share to path on next cloud container and add that to external storage in the web ui
+
