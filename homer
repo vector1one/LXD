@@ -1,0 +1,9 @@
+install apache2 from apt.
+
+
+  wget https://github.com/bastienwirtz/homer/releases/latest/download/homer.zip
+unzip homer.zip
+cd homer
+cp assets/config.yml.dist assets/config.yml
+
+  moves files to /var/www/html
