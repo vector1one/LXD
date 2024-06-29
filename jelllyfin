@@ -1,0 +1,9 @@
+jellyfin notes and confige 
+
+22.04 lts container 
+curl -s https://repo.jellyfin.org/install-debuntu.sh | sudo bash
+
+sudo ufw enable
+sudo ufw allow 8096
+
+set fwrd in lxc
