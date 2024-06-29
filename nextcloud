@@ -1,0 +1,9 @@
+snap install configs 
+post install 
+
+*snap install nextcloud
+
+sudo nextcloud.manual-install username password
+nextcloud.occ config:system:set trusted_domains 1 --value=your.ip.here
+
+profit
