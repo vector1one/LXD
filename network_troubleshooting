@@ -22,3 +22,10 @@ grub
 nano /etc/default/grub
 GRUB_CMDLINE_LINUX_DEFAULT="ipv6.disable=1"
 update-grub
+
+
+LXC
+looks like the portforward need to be made on the node you need to fwrd too
+ex
+port forward on node2 needs to be made on node2 ui
+https://node2:8443/ui/project/default/network/lxdfan0/forwards
