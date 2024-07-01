@@ -6,4 +6,11 @@ unzip homer.zip
 cd homer
 cp assets/config.yml.dist assets/config.yml
 
-  moves files to /var/www/html
+  moves files to /var/www/html/homer
+
+cp hal config to assets
+mkdir assests in assets and mv *.png assest
+
+
+
+
