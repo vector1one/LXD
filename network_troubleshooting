@@ -2,6 +2,7 @@ some troubleshooting and configs to make contrainers talk out
 issue: ubtu 22.04 with apache2 cant get throught with lxc port forward 
 
 IP tables
+iptables -I INPUT -j ACCEPT
 
 
 UFW
